@@ -291,6 +291,12 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     display: flex;
     justify-content: center;
 }
+#header .mblMenu ul li{
+    border-right: 1px solid var(--gray-scale-gray-–-600)
+}
+#header .mblMenu ul li:last-child{
+    border-right: none;
+}
 #header .mblMenu ul a{
     font-size: 28px;
     color: var(--gray-scale-gray-–-900);
