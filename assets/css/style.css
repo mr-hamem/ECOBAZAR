@@ -226,6 +226,10 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     color: var(--gray-scale-gray-–-900);
     padding: 15px 0px;
 }
+#header .mblSideBar div ul li a.customDropDown{
+    background: var(--gray-scale-white);
+    border-bottom: 1px solid var(--gray-scale-gray-–-600);
+}
 #header .mbl_header .mblMenuBtn{
     background: none;
     border: none;
