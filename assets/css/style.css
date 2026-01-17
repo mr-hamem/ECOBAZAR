@@ -350,7 +350,6 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     color: var(--gray-scale-gray-–-600);
     font-size: 14px;
     text-align: end;
-    /* width: 40%; */
-    margin-left: 8px;
+    margin-left: 5px;
 }
 /* header section css ends here */
