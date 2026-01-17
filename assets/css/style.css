@@ -349,7 +349,6 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     color: var(--gray-scale-gray-–-600);
     font-size: 13px;
     text-decoration: underline;
-    width: 100%;
     margin-left: auto;
     margin-left: 5px;
 }
