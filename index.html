@@ -117,7 +117,7 @@
             <div class="container">
                 <div class="row mt-3 mb-3">
                     <div class="col">
-                        <button class="mblMenuBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"><iconify-icon icon="jam:menu" width="24" height="24"></iconify-icon></button>
+                        <button class="mblMenuBtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"><iconify-icon icon="jam:menu" width="30" height="30"></iconify-icon></button>
                     </div>
                     <div class="col-5">
                         <a href="#"><img src="./assets/img/Logo.png" alt="" class="img-fluid"></a>
@@ -195,8 +195,30 @@
                     <ul>
                         <li><a href="#"><iconify-icon icon="iconoir:shop"></iconify-icon><span>Shop</span></a></li>
                         <li><a href="#"><iconify-icon icon="solar:heart-linear"></iconify-icon><span>Wishlist</span></a></li>
-                        <li><a href="#"><iconify-icon icon="iconamoon:profile-thin"></iconify-icon><span>Profile</span></a></li>
+                        <li><a data-bs-toggle="offcanvas" href="#mobileProfileOffcan" role="button" aria-controls="mobileProfileOffcan"><iconify-icon icon="iconamoon:profile-thin"></iconify-icon><span>Profile</span></a></li>
                     </ul>
+                    <!-- profile offcanvas starts here -->
+                     <div class="offcanvas offcanvas-end profileOffCanvas" tabindex="-1" id="mobileProfileOffcan" aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">SIGN IN</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <form>
+                            <label>Username or email addess <span>*</span></label>
+                            <input class="mainAndPass" type="email">
+                        </form>
+                        <form>
+                            <label>Password <span>*</span></label>
+                            <input class="mainAndPass" type="password">
+                            <a href="#">LOG IN</a>
+                            <input id="rememberme" class="rememberMeCheck" type="checkbox">
+                            <label for="rememberme">Remember Me</label>
+                            <a href="#" class="lost_password_link">Lost your password?</a>
+                        </form>
+                    </div>
+                    </div>
+                    <!-- profile offcanvas ends here -->
             </div>
         </div>
      </header>
