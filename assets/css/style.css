@@ -337,7 +337,6 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
 #header .mblMenu .profileOffCanvas form a{
     width: 100%;
     padding: 15px 0;
-    text-decoration: underline;
     margin: 0 0 10px 0;
     margin-top: 15px;
     text-align: center;
@@ -348,8 +347,10 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     display: inline;
     background: none;
     color: var(--gray-scale-gray-–-600);
-    font-size: 14px;
-    text-align: end;
+    font-size: 13px;
+    text-decoration: underline;
+    width: 100%;
+    margin-left: auto;
     margin-left: 5px;
 }
 /* header section css ends here */
