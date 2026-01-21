@@ -386,3 +386,80 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     margin-left: 5px;
 }
 /* header section css ends here */
+/* banner section css starts here */
+#banner{
+    padding: 40px 0;
+    position: relative;
+}
+#banner .banner_slider_1{
+    width: 100%;
+    height: 100vh;
+}
+#banner .slider_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 20px;
+}
+#banner .banner_slider_1 .slider_wrapper h6{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--branding-success);
+}
+#banner .banner_slider_1 .slider_wrapper h1{
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 120%;
+    color: var(--gray-scale-gray-–-900);
+}
+#banner .banner_slider_1 .slider_wrapper h4{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--gray-scale-gray-–-900);
+}
+#banner .banner_slider_1 .slider_wrapper h4 span{
+    font-weight: 600;
+    color: var(--branding-warning);
+}
+#banner .banner_slider_1 .slider_wrapper p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray-scale-gray-–-500);
+}
+#banner .banner_slider_1 .slider_wrapper .button a{
+    border-radius: 53px;
+    padding: 13px 20px;
+    width: 145px;
+    height: 51px;
+    background: var(--branding-success);
+    color: var(--gray-scale-gray-–-50);
+    display: block;
+    margin-top: 15px;
+}
+#banner .my-dots{
+    display: flex;
+    position: absolute;
+    right: 50%;
+    bottom: 45px;
+    gap: 5px;
+
+}
+#banner .my-dots button{
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 0;
+    background: var(--branding-success-bright);
+    transition: .3s;
+}
+#banner .my-dots .slick-active button{
+    width: 25px;
+    background: var(--branding-success);
+}
+/* banner section css ends here */
