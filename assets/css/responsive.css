@@ -1,3 +1,174 @@
-@media (max-width: 991px){
-    #header .cart_part
+/* extra extra small device responsive css starts here */
+@media (min-width:320px) and (max-width:350px){
+    #header .mbl_header .offCanvas {
+    max-width: 400px;
+    width: 250px;
 }
+#header .mblMenu .profileOffCanvas {
+    max-width: 370px;
+    width: 250px;
+}
+#header .mbl_header .searchOffcanvas p {
+    font-size: 12px;
+}
+#header .mblMenu ul a {
+    font-size: 20px;
+    width: 102px;
+}
+#header .mblMenu ul li a span {
+    font-size: 13px;
+}
+#header .mblMenu .profileOffCanvas form label {
+    font-size: 13px;
+}
+#header .mblMenu .profileOffCanvas form a.lost_password_link {
+    font-size: 11px;
+    margin-left: 0px;
+}
+#banner .slider_content_wrapper {
+    height: 285px;
+    padding: 15px 20px;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+#banner .slider_content_wrapper img{
+    width: 200px;
+    height: 115px;
+    margin: auto;
+}
+#banner .slider_content_wrapper h6 {
+    font-size: 9px;
+}
+#banner .slider_content_wrapper h1 {
+    font-size: 17px;
+    margin: 5px 0;
+}
+#banner .slider_content_wrapper h2{
+    font-size: 15px;
+    margin: 5px 0;
+}
+#banner .slider_content_wrapper h4 {
+    font-size: 15px;
+}
+#banner .slider_content_wrapper p {
+    font-size: 9px;
+    margin: 4px 0;
+}
+#banner .slider_content_wrapper a {
+    padding: 5px 10px;
+    width: 98px;
+    height: 33px;
+    margin: 10px 0px;
+    font-size: 10px;
+    margin: auto;
+}
+}
+/* extra extra small device responsive css ends here */
+/* extra small device responsive css starts here */
+@media (min-width:351px) and (max-width: 389.98px){
+    #header .mbl_header .offCanvas {
+    max-width: 400px;
+    width: 295px;
+}
+#header .mblMenu ul a {
+    width: 130px;
+}
+    #banner .slider_content_wrapper {
+    height: 420px;
+    padding: 10px 30px;
+    margin: 20px 0;
+    text-align: center;
+}
+    #banner .slider_content_wrapper h1 {
+    font-size: 40px;
+}
+#banner .slider_content_wrapper h2{
+    font-size: 32px;
+    margin: 5px 0;
+}
+#banner .slider_content_wrapper h4 {
+    font-size: 23px;
+}
+#banner .slider_content_wrapper p {
+    font-size: 12px;
+    margin: 6px 0;
+}
+#banner .slider_content_wrapper a {
+    padding: 5px 10px;
+    width: 98px;
+    height: 33px;
+    margin: 10px 0px;
+    font-size: 10px;
+    margin: auto;
+}
+}
+/* extra small device responsive css ends here */
+/* small devices responsive css starts here */
+@media (min-width:390px) and (max-width:420.98px){
+    #header .mbl_header .offCanvas {
+    max-width: 400px;
+    width: 280px;
+}
+    #banner .slider_content_wrapper {
+    height: 435px;
+    text-align: center;
+    margin: 20px 0;
+}
+#banner .slider_content_wrapper h1 {
+    font-size: 42px;
+}
+#banner .slider_content_wrapper h2 {
+    font-size: 33px;
+}
+#banner .slider_content_wrapper h4 {
+    font-size: 23px;
+}
+#banner .slider_content_wrapper p {
+    font-size: 11px;
+    margin: 2px 0 15px 0;
+}
+#banner .slider_content_wrapper a {
+    padding: 5px 10px;
+    width: 98px;
+    height: 33px;
+    font-size: 10px;
+    margin: auto;
+}
+}
+/* small devices responsive css ends here */
+/* iPhone 11 to 17 pro max devices responsive starts here */
+@media (min-width:421px) and (max-width:475.98px){
+    #header .mblMenu ul a {
+    width: 145px;
+    font-size: 32px;
+}
+#header .mblMenu ul li a span {
+    font-size: 17px;
+}
+    #banner .slider_content_wrapper {
+    height: 485px;
+    text-align: center;
+    margin: 20px 0;
+}
+    #banner .slider_content_wrapper h1 {
+    font-size: 48px;
+}
+#banner .slider_content_wrapper h2 {
+    font-size: 37px;
+}
+#banner .slider_content_wrapper h4 {
+    font-size: 25px;
+}
+#banner .slider_content_wrapper p {
+    font-size: 13px;
+    margin: 5px 0;
+}
+#banner .slider_content_wrapper a {
+    padding: 5px 10px;
+    width: 98px;
+    height: 33px;
+    font-size: 10px;
+    margin: auto;
+}
+}
+/* iPhone 11 to 17 pro max devices responsive ends here */

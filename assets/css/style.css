@@ -9,16 +9,16 @@
 	--gren-gray-scale-200: #b4ccb4;
 	--gren-gray-scale-100: #dae5da;
 	--gren-gray-scale-50: #edf2ee;
-	--gray-scale-gray-–-900: #1a1a1a;
-	--gray-scale-gray-–-800: #333;
-	--gray-scale-gray-–-700: #4d4d4d;
-	--gray-scale-gray-–-600: #666;
-	--gray-scale-gray-–-500: #808080;
-	--gray-scale-gray-–-400: #999;
-	--gray-scale-gray-–-300: #b3b3b3;
-	--gray-scale-gray-–-200: #ccc;
-	--gray-scale-gray-–-100: #e6e6e6;
-	--gray-scale-gray-–-50: #f2f2f2;
+	--gray-scale-gray-â€“-900: #1a1a1a;
+	--gray-scale-gray-â€“-800: #333;
+	--gray-scale-gray-â€“-700: #4d4d4d;
+	--gray-scale-gray-â€“-600: #666;
+	--gray-scale-gray-â€“-500: #808080;
+	--gray-scale-gray-â€“-400: #999;
+	--gray-scale-gray-â€“-300: #b3b3b3;
+	--gray-scale-gray-â€“-200: #ccc;
+	--gray-scale-gray-â€“-100: #e6e6e6;
+	--gray-scale-gray-â€“-50: #f2f2f2;
 	--gray-scale-white: #fff;
 	--branding-success-bright: #84d187;
 	--branding-success: #00b207;
@@ -52,13 +52,13 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
 /* header section css starts here */
 #header .headerTop{
     padding: 13px 0;
-    border-bottom:1px solid var(--gray-scale-gray-–-100);
+    border-bottom:1px solid var(--gray-scale-gray-â€“-100);
 }
 #header .headerTop address{
     font-weight: 400;
     font-size: 12px;
     line-height: 130%;
-    color: var(--gray-scale-gray-–-600);
+    color: var(--gray-scale-gray-â€“-600);
 }
 #header .headerTop form select{
     font-weight: 400;
@@ -66,15 +66,15 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     text-align: center;
     border: none;
     background: transparent;
-    color: var(--gray-scale-gray-–-600);
+    color: var(--gray-scale-gray-â€“-600);
     margin: 0 20px 0 0;
 }
 #header .headerTop form a{
     font-weight: 400;
     font-size: 12px;
     line-height: 130%;
-    color: var(--gray-scale-gray-–-600);
-    border-left:1px solid var(--gray-scale-gray-–-100);
+    color: var(--gray-scale-gray-â€“-600);
+    border-left:1px solid var(--gray-scale-gray-â€“-100);
     padding: 0 0 0 20px;
 }
 #header .headerCenter .navSubBtn{
@@ -104,7 +104,7 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     top: 9px;
 }
 #header .headerCenter span.heart{
-    border-right: 1px solid var(--gray-scale-gray-–-100);
+    border-right: 1px solid var(--gray-scale-gray-â€“-100);
     padding-right: 10px;
 }
 #header .headerCenter span.cart_bag{
@@ -150,7 +150,7 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
 #header .headerBottom nav ul li a{
     font-weight: 500;
     font-size: 14px;
-    color: var(--gray-scale-gray-–-900);
+    color: var(--gray-scale-gray-â€“-900);
     padding: 15px 17px;
 }
 #header .headerBottom nav ul li a:hover{
@@ -161,13 +161,13 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     color: #fff;
 }
 #header .headerBottom .tel{
-    color:var(--gray-scale-gray-–-900);
+    color:var(--gray-scale-gray-â€“-900);
     font-size: 14px;
     line-height: 150%;
     font-weight: 500;
 }
 #header .headerBottom .tel a{
-    color:var(--gray-scale-gray-–-900);
+    color:var(--gray-scale-gray-â€“-900);
 }
 #header nav .submenu{
     position: absolute;
@@ -180,6 +180,7 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     opacity: 0;
     visibility: hidden;
     transition: .3s;
+    z-index: 9;
 }
 #header nav ul li:hover > .submenu{
     opacity: 1;
@@ -204,7 +205,7 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
 #header .mbl_header .offCanvas{
     max-width: 400px;
     width: 350px;
-    background: var(--gray-scale-gray-–-100);
+    background: var(--gray-scale-gray-â€“-100);
 }
 #header .mbl_header .offCanvas form input{
     border-bottom-right-radius:0px;
@@ -217,18 +218,18 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     border-top-right-radius:5px;
     border-bottom-left-radius: 0px;
     border-top-left-radius: 0px;
-    border: 1px solid var(--gray-scale-gray-–-200);
+    border: 1px solid var(--gray-scale-gray-â€“-200);
     border-left: none;
 }
 #header .mbl_header .mblSideBar ul li a{
     font-weight: 500;
     font-size: 14px;
-    color: var(--gray-scale-gray-–-900);
+    color: var(--gray-scale-gray-â€“-900);
     padding: 15px 0px;
 }
 #header .mblSideBar div ul li a.customDropDown{
     background: var(--gray-scale-white);
-    border-bottom: 1px solid var(--gray-scale-gray-–-600);
+    border-bottom: 1px solid var(--gray-scale-gray-â€“-600);
 }
 #header .mbl_header .mblMenuBtn{
     background: none;
@@ -254,7 +255,7 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     outline: none;
 }
 #header .mbl_header .cartOffCanvas{
-    background: var(--gray-scale-gray-–-100);
+    background: var(--gray-scale-gray-â€“-100);
     max-width: 400px;
     width: 270px;
 }
@@ -292,7 +293,7 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     font-size: 85px;
 }
 #header .mbl_header .offcanvas_header{
-    border-bottom: 1px solid var(--gray-scale-gray-–-200);
+    border-bottom: 1px solid var(--gray-scale-gray-â€“-200);
 }
 #header .mbl_header .searchOffcanvas{
     height: 80%;
@@ -302,7 +303,7 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
 }
 #header .mbl_header .searchOffcanvas p{
     text-align: center;
-    color: var(--gray-scale-gray-–-600);
+    color: var(--gray-scale-gray-â€“-600);
     margin-top: 20px;
 }
 #header .mbl_header .searchOffcanvas form input{
@@ -325,14 +326,14 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     justify-content: center;
 }
 #header .mblMenu ul li{
-    border-right: 1px solid var(--gray-scale-gray-–-600)
+    border-right: 1px solid var(--gray-scale-gray-â€“-600)
 }
 #header .mblMenu ul li:last-child{
     border-right: none;
 }
 #header .mblMenu ul a{
     font-size: 28px;
-    color: var(--gray-scale-gray-–-900);
+    color: var(--gray-scale-gray-â€“-900);
     width: 130px;
 }
 #header .mblMenu ul a iconify-icon{
@@ -343,7 +344,7 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     display: block;
     font-size: 15px;
     text-align: center;
-    color: var(--gray-scale-gray-–-700);
+    color: var(--gray-scale-gray-â€“-700);
 }
 #header .mblMenu .profileOffCanvas{
     max-width: 370px;
@@ -373,13 +374,13 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     margin: 0 0 10px 0;
     margin-top: 15px;
     text-align: center;
-    background: var(--gray-scale-gray-–-900);
-    color: var(--gray-scale-gray-–-50);
+    background: var(--gray-scale-gray-â€“-900);
+    color: var(--gray-scale-gray-â€“-50);
 }
 #header .mblMenu .profileOffCanvas form a.lost_password_link{
     display: inline;
     background: none;
-    color: var(--gray-scale-gray-–-600);
+    color: var(--gray-scale-gray-â€“-600);
     font-size: 13px;
     text-decoration: underline;
     margin-left: auto;
@@ -387,21 +388,15 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
 }
 /* header section css ends here */
 /* banner section css starts here */
-#banner{
-    padding: 40px 0;
+#banner .slider_content_wrapper {
+    background: var(--gray-scale-gray-â€“-100);
+    height: 600px;
+    padding: 0px 30px;
+    border-radius: 8px;
+    margin: 20px 0;
     position: relative;
 }
-#banner .banner_slider_1{
-    width: 100%;
-    height: 100vh;
-}
-#banner .slider_wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 0 20px;
-}
-#banner .banner_slider_1 .slider_wrapper h6{
+#banner .slider_content_wrapper h6{
     font-weight: 500;
     font-size: 14px;
     line-height: 100%;
@@ -409,57 +404,65 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     text-transform: uppercase;
     color: var(--branding-success);
 }
-#banner .banner_slider_1 .slider_wrapper h1{
+#banner .slider_content_wrapper h1{
     font-weight: 600;
-    font-size: 72px;
+    font-size: 70px;
     line-height: 120%;
-    color: var(--gray-scale-gray-–-900);
+    color: var(--gray-scale-gray-â€“-900);
 }
-#banner .banner_slider_1 .slider_wrapper h4{
+#banner .slider_content_wrapper h2{
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 120%;
+    color: var(--gray-scale-gray-â€“-900);
+}
+#banner .slider_content_wrapper h4{
     font-weight: 400;
     font-size: 32px;
     line-height: 120%;
-    color: var(--gray-scale-gray-–-900);
+    color: var(--gray-scale-gray-â€“-900);
 }
-#banner .banner_slider_1 .slider_wrapper h4 span{
+#banner .slider_content_wrapper h4 span{
     font-weight: 600;
     color: var(--branding-warning);
 }
-#banner .banner_slider_1 .slider_wrapper p{
+#banner .slider_content_wrapper p{
     font-weight: 400;
     font-size: 14px;
+    margin: 15px 0;
     line-height: 150%;
-    color: var(--gray-scale-gray-–-500);
+    color: var(--gray-scale-gray-â€“-500);
 }
-#banner .banner_slider_1 .slider_wrapper .button a{
+#banner .slider_content_wrapper a{
     border-radius: 53px;
-    padding: 13px 20px;
-    width: 145px;
+    padding: 14px 40px;
+    width: 191px;
     height: 51px;
     background: var(--branding-success);
-    color: var(--gray-scale-gray-–-50);
+    color: var(--gray-scale-white);
     display: block;
-    margin-top: 15px;
+    margin-top: 32px;
 }
-#banner .my-dots{
+#banner .banner_sliderDots{
     display: flex;
+    gap: 10px;
     position: absolute;
-    right: 50%;
-    bottom: 45px;
-    gap: 5px;
-
+    bottom: 20px;
+    left: 49%;
+    transform: translateY(-50%);
 }
-#banner .my-dots button{
-    width: 10px;
-    height: 10px;
-    border-radius: 20px;
-    border: none;
-    font-size: 0;
+#banner .banner_sliderDots button{
+    font-size: 0px;
     background: var(--branding-success-bright);
+    width: 8px;
+    height: 8px;
+    border: none;
+    border-radius: 20px;
     transition: .3s;
 }
-#banner .my-dots .slick-active button{
+#banner .banner_sliderDots .slick-active button{
+    background: #00B207;
     width: 25px;
-    background: var(--branding-success);
+    border-radius: none;
 }
 /* banner section css ends here */
