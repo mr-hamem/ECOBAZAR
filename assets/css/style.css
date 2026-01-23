@@ -447,9 +447,9 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     display: flex;
     gap: 10px;
     position: absolute;
-    bottom: 20px;
-    left: 49%;
-    transform: translateY(-50%);
+    bottom: 90px;
+    left: 50%;
+    transform: translatex(-50%);
 }
 #banner .banner_sliderDots button{
     font-size: 0px;
@@ -466,3 +466,116 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     border-radius: none;
 }
 /* banner section css ends here */
+/* others services section css starts here */
+#otherService{
+    border-radius: 8px;
+    padding: 0 29px;
+    width: 1118px;
+    height: 128px;
+    transform: translateY(-70px);
+    margin: auto;
+}
+#otherService .otherservicesBg{
+    background: var(--gray-scale-white);
+    padding: 25px 20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#otherService .freeShip span{
+    color: var(--branding-success);
+    margin-right: 10px;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+#otherService .freeShip .freeShipCnt h6{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: var(--gray-scale-gray-–-900);
+}
+#otherService .freeShip .freeShipCnt p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: var(--gray-scale-gray-â€“-400);
+}
+/* others services section css ends here */
+/* feature section css starts here */
+#feature .featureProCard{
+    border: 1px solid var(--gray-scale-gray-â€“-200);
+    border-radius: 8px;
+}
+#feature .featureProCard .featureCnt{
+    padding: 12px 16px;
+    position: relative;
+}
+#feature .featureProCard .featureCnt .featureCardBtn{
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#feature .featureProCard .featureImg{
+    position: relative;
+}
+#feature .featureProCard .featureImg .quicklinks{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border-radius: 50%;
+}
+#feature .featureProCard .featureImg .quicklinks li{
+    transform: translateX(-60px);
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+#feature .featureProCard .featureImg .quicklinks li:last-child{
+    transition-delay: .1s;
+}
+#feature .featureProCard:hover .featureImg .quicklinks li{
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+}
+#feature .featureProCard .featureImg .quicklinks li a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+    background: var(--gren-gray-scale-50);
+    color: var(--gray-scale-gray-â€“-900);
+}
+#feature .featureProCard .featureCnt .featureCardBtn{
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-scale-gray-â€“-700);
+    background: var(--gray-scale-gray-â€“-50);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    transition: .2s;
+}
+#feature .featureProCard .featureCnt .featureCardBtn:hover {
+    background: var(--branding-success);
+    color: var(--gray-scale-white);
+}
+#feature .featureProCard .featureCnt p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray-scale-gray-â€“-900);
+}
+#feature .featureProCard .featureCnt .reviews{
+    display: flex;
+    color: var(--branding-warning);
+
+}
+/* feature section css ends here */

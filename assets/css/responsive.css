@@ -62,9 +62,26 @@
     font-size: 10px;
     margin: auto;
 }
+#otherService {
+    width: 100%;
+    transform: translateY(0);
+}
+#otherService .otherservicesBg {
+    padding: 0px 0px;
+}
+#otherService .freeShip {
+    border-bottom: 1px solid #e9e7e7;
+    padding-bottom: 10px;
+}
+#otherService .freeShip .freeShipCnt h6 {
+    font-size: 12px;
+}
+#otherService .freeShip .freeShipCnt p {
+    font-size: 10px;
+}
 }
 /* extra extra small device responsive css ends here */
-/* extra small device responsive css starts here */
+/* iPhone6 to iPhone 8 responsive css starts here*/
 @media (min-width:351px) and (max-width: 389.98px){
     #header .mbl_header .offCanvas {
     max-width: 400px;
@@ -101,9 +118,26 @@
     font-size: 10px;
     margin: auto;
 }
+#otherService {
+    width: 100%;
+    transform: translateY(0);
 }
-/* extra small device responsive css ends here */
-/* small devices responsive css starts here */
+#otherService .otherservicesBg {
+    padding: 0px 0px;
+}
+#otherService .freeShip {
+    border-bottom: 1px solid #e9e7e7;
+    padding-bottom: 10px;
+}
+#otherService .freeShip .freeShipCnt h6 {
+    font-size: 12px;
+}
+#otherService .freeShip .freeShipCnt p {
+    font-size: 10px;
+}
+}
+/* iPhone6 to iPhone8 responsive css ends here */
+/* iPhone11 to iPhone14 pro responsive css starts here */
 @media (min-width:390px) and (max-width:420.98px){
     #header .mbl_header .offCanvas {
     max-width: 400px;
@@ -134,9 +168,26 @@
     font-size: 10px;
     margin: auto;
 }
+#otherService {
+    width: 100%;
+    transform: translateY(0);
 }
-/* small devices responsive css ends here */
-/* iPhone 11 to 17 pro max devices responsive starts here */
+#otherService .otherservicesBg {
+    padding: 0px 0px;
+}
+#otherService .freeShip {
+    border-bottom: 1px solid #e9e7e7;
+    padding-bottom: 10px;
+}
+#otherService .freeShip .freeShipCnt h6 {
+    font-size: 12px;
+}
+#otherService .freeShip .freeShipCnt p {
+    font-size: 10px;
+}
+}
+/* iPhone11 to iPhone14 pro responsive css ends here */
+/* iPhone11pro-max to 17pro-max devices responsive starts here */
 @media (min-width:421px) and (max-width:475.98px){
     #header .mblMenu ul a {
     width: 145px;
@@ -170,5 +221,149 @@
     font-size: 10px;
     margin: auto;
 }
+#otherService {
+    width: 100%;
+    transform: translateY(0);
 }
-/* iPhone 11 to 17 pro max devices responsive ends here */
+#otherService .otherservicesBg {
+    padding: 0px 0px;
+}
+#otherService .freeShip {
+    border-bottom: 1px solid #e9e7e7;
+    padding-bottom: 10px;
+}
+#otherService .freeShip .freeShipCnt h6 {
+    font-size: 12px;
+}
+#otherService .freeShip .freeShipCnt p {
+    font-size: 10px;
+}
+}
+/* iPhone 11pro-max to 17 promax-devices responsive ends here */
+/* others extra small device responsive css starts here*/
+@media (min-width:476px) and (max-width:575.98px){
+    #banner .slider_content_wrapper {
+    height: 510px;
+    text-align: center;
+    padding-top: 25px;
+}
+#banner .slider_content_wrapper h6 {
+    font-size: 10px;
+}
+    #banner .slider_content_wrapper h1 {
+    font-size: 34px;
+}
+#banner .slider_content_wrapper h2 {
+    font-size: 25px;
+}
+#banner .slider_content_wrapper h4 {
+    font-size: 20px;
+    margin: 3px 0;
+}
+#banner .slider_content_wrapper p {
+    font-size: 12px;
+    margin:0px 0 10px 0;
+}
+#banner .slider_content_wrapper a {
+    padding: 5px 10px;
+    width: 98px;
+    height: 33px;
+    font-size: 10px;
+    margin: auto;
+}
+#otherService {
+    width: 100%;
+    transform: translateY(0);
+}
+#otherService .otherservicesBg {
+    padding: 0px 0px;
+}
+#otherService .freeShip {
+    border-bottom: 1px solid #e9e7e7;
+    padding-bottom: 10px;
+}
+#otherService .freeShip .freeShipCnt h6 {
+    font-size: 12px;
+}
+#otherService .freeShip .freeShipCnt p {
+    font-size: 10px;
+}
+}
+/* others extra small device responsive css ends here*/
+/* small device responsive css starts here*/
+@media (min-width:576px) and (max-width: 767.98px){
+    #banner .slider_content_wrapper {
+    height: 515px;
+    padding: 20px 30px 0 30px;
+    text-align: center;
+    margin: 20px 0;
+}
+    #banner .slider_content_wrapper h1 {
+    font-size: 53px;
+}
+#banner .slider_content_wrapper h2 {
+    font-size: 47px;
+}
+#banner .slider_content_wrapper h4 {
+    font-size: 25px;
+}
+#banner .slider_content_wrapper p {
+    margin: 2px 0 10px 0;
+}
+#banner .slider_content_wrapper a {
+    padding: 5px 10px;
+    width: 98px;
+    height: 33px;
+    font-size: 10px;
+    margin: auto;
+}
+}
+/* small device responsive css ends here*/
+/* medium size devices responsive css starts here */
+@media (min-width: 768px) and (max-width:991.98px){
+    #banner .slider_content_wrapper {
+    height: 350px;
+}
+    #banner .slider_content_wrapper h6 {
+    font-size: 12px;
+}
+    #banner .slider_content_wrapper h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+#banner .slider_content_wrapper h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+    line-height: 108%;
+}
+#banner .slider_content_wrapper h4 {
+    font-size: 22px;
+}
+#banner .slider_content_wrapper p {
+    font-size: 12px;
+    margin: 3px 0;
+}
+#banner .slider_content_wrapper a {
+    padding: 12px 14px;
+    width: 130px;
+}
+}
+/* medium size devices responsive css ends here */
+/* large size devices responsive css starts here */
+@media (min-width:992px) and (max-width:1199.98px){
+    #banner .slider_content_wrapper {
+    height: 450px;
+}
+    #banner .slider_content_wrapper h1 {
+    font-size: 59px;
+    margin: 5px 0;
+}
+#banner .slider_content_wrapper h2 {
+    font-size: 47px;
+    margin: 5px 0;
+}
+#banner .slider_content_wrapper h4 {
+    font-size: 29px;
+}
+}
+/* large size devices responsive css ends here */
