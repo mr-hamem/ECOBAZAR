@@ -242,6 +242,9 @@
 /* iPhone 11pro-max to 17 promax-devices responsive ends here */
 /* others extra small device responsive css starts here*/
 @media (min-width:476px) and (max-width:575.98px){
+    #header .mblMenu ul a {
+    width: 180px;
+}
     #banner .slider_content_wrapper {
     height: 510px;
     text-align: center;
@@ -292,8 +295,11 @@
 /* others extra small device responsive css ends here*/
 /* small device responsive css starts here*/
 @media (min-width:576px) and (max-width: 767.98px){
+    #header .mblMenu ul a {
+    width: 180px;
+}
     #banner .slider_content_wrapper {
-    height: 515px;
+    height: 590px;
     padding: 20px 30px 0 30px;
     text-align: center;
     margin: 20px 0;
@@ -316,6 +322,17 @@
     height: 33px;
     font-size: 10px;
     margin: auto;
+}
+#otherService {
+    border-radius: 8px;
+    padding: 0px 0px;
+    width: 100%;
+    height: 128px;
+    transform: translateY(0);
+}
+#otherService .freeShip{
+    margin-bottom: 15px;
+    border-right: 1px solid #e9e7e7;
 }
 }
 /* small device responsive css ends here*/
@@ -346,6 +363,26 @@
 #banner .slider_content_wrapper a {
     padding: 12px 14px;
     width: 130px;
+}
+#otherService {
+    border-radius: 8px;
+    padding: 0 29px;
+    width: 70%;
+    height: auto;
+    transform: translateY(-60px);
+}
+#otherService .otherservicesBg {
+    padding: 0px 0px;
+}
+#otherService .freeShip{
+    padding:0 0 15px 0;
+    margin: 5px 0;
+}
+#otherService .freeShip .freeShipCnt h6 {
+    font-size: 12px;
+}
+#otherService .freeShip .freeShipCnt p {
+    font-size: 9px;
 }
 }
 /* medium size devices responsive css ends here */
