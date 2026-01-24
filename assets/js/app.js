@@ -2,7 +2,7 @@ $(document).ready(function(){
   $('.banner_slider').slick({
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 200000000,
+    autoplaySpeed: 2000,
     arrows: false,
     fade: true,
     cssEase: 'linear',
@@ -42,9 +42,8 @@ $(document).ready(function(){
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
-        dots: true,
       }
     },
     {
@@ -57,7 +56,7 @@ $(document).ready(function(){
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1
       },
     }

@@ -25,10 +25,10 @@
         <div class="headerTop">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-center text-center text-lg-start">
+                    <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-md-start justify-content-lg-start justify-content-center text-center text-lg-start">
                         <address><iconify-icon icon="tdesign:location" width="20" height="20"></iconify-icon> Store Location: Lincoln- 344, Illinois, Chicago, USA</address>
                     </div>
-                    <div class="col-lg-6 d-none d-lg-flex justify-content-end">
+                    <div class="col-lg-6 col-md-6 d-none d-md-flex d-lg-flex justify-content-end">
                         <form>
                             <select>
                                 <option value="">EN</option>
@@ -44,25 +44,25 @@
                 </div>
             </div>
         </div>
-        <div class="headerCenter d-none d-lg-block">
+        <div class="headerCenter d-none d-md-flex d-lg-block">
             <div class="container">
                 <div class="row justify-content-between align-items-center pt-3 pb-3">
-                    <div class="col-lg-2">
+                    <div class="col-lg-2 col-md-3">
                         <div>
                             <a class="navbar-brand" href="#">
                                 <img src="./assets/img/Logo.png" alt="LOGO" class="img-fluid mb-1">
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 col-md-6">
                         <form class="d-flex" role="search">
                             <input class="form-control search_bar" type="search" placeholder="Search" aria-label="Search"/>
                             <button class="btn navSubBtn btn-outline-success" type="submit">Search</button>
                             <span class="search_icon"><iconify-icon icon="material-symbols-light:search" width="30" height="30"></iconify-icon></span>
                         </form>
                     </div>
-                    <div class="col-lg-2">
-                        <div class="cart_part d-flex">
+                    <div class="col-lg-2 col-md-3">
+                        <div class="cart_part d-flex justify-content-md-end">
                             <span class="heart"><iconify-icon icon="solar:heart-linear" width="30" height="30"></iconify-icon></span>
                             <div class='d-flex'>
                                 <div class="cartCount">
@@ -78,7 +78,7 @@
                 </div>
             </div>
         </div>
-        <div class="headerBottom d-none d-lg-block">
+        <div class="headerBottom d-none d-md-block d-lg-block">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -348,8 +348,12 @@
      </section>
     <!-- other services section ends here -->
     <!-- feature section starts here -->
-     <!-- <section id="feature">
+    <section id="feature">
         <div class="container">
+            <div class='heading'>
+                <h2>Feature Product</h2>
+                <img src="./assets/img/Line.png" alt="" class="img-fluid">
+            </div>
             <div class="featureSlider">
                 <div class="px-2">
                     <div class="featureProCard">
@@ -361,7 +365,107 @@
                             </ul>
                         </div>
                         <div class="featureCnt">
-                            <a href="#">Green Apple</a>
+                            <a href="#" class="productNames">Green Apple</a>
+                            <p>$14.99</p>
+                            <div class="reviews">
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                            </div>
+                            <a href="#" class="featureCardBtn">
+                                <iconify-icon icon="iconamoon:shopping-bag-light" width="24" height="24"></iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2">
+                    <div class="featureProCard">
+                        <div class="featureImg">
+                            <a href="#"><img src="./assets/img/featureProduct2.png" class="img-fluid" alt=""></a>
+                            <ul class="quicklinks">
+                                <li><a href="#"><iconify-icon icon="solar:heart-linear" width="20" height="20"></iconify-icon></a></li>
+                                <li><a href="#"><iconify-icon icon="solar:eye-linear" width="20" height="20"></iconify-icon></a></li>
+                            </ul>
+                        </div>
+                        <div class="featureCnt">
+                            <a href="#" class="productNames">Chainise Cabbage</a>
+                            <p>$14.99</p>
+                            <div class="reviews">
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                            </div>
+                            <a href="#" class="featureCardBtn">
+                                <iconify-icon icon="iconamoon:shopping-bag-light" width="24" height="24"></iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2">
+                    <div class="featureProCard">
+                        <div class="featureImg">
+                            <a href="#"><img src="./assets/img/featureProduct3.png" class="img-fluid" alt=""></a>
+                            <ul class="quicklinks">
+                                <li><a href="#"><iconify-icon icon="solar:heart-linear" width="20" height="20"></iconify-icon></a></li>
+                                <li><a href="#"><iconify-icon icon="solar:eye-linear" width="20" height="20"></iconify-icon></a></li>
+                            </ul>
+                        </div>
+                        <div class="featureCnt">
+                            <a href="#" class="productNames">Green Lettuce</a>
+                            <p>$14.99</p>
+                            <div class="reviews">
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                            </div>
+                            <a href="#" class="featureCardBtn">
+                                <iconify-icon icon="iconamoon:shopping-bag-light" width="24" height="24"></iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2">
+                    <div class="featureProCard">
+                        <div class="featureImg">
+                            <a href="#"><img src="./assets/img/featureProduct4.png" class="img-fluid" alt=""></a>
+                            <ul class="quicklinks">
+                                <li><a href="#"><iconify-icon icon="solar:heart-linear" width="20" height="20"></iconify-icon></a></li>
+                                <li><a href="#"><iconify-icon icon="solar:eye-linear" width="20" height="20"></iconify-icon></a></li>
+                            </ul>
+                        </div>
+                        <div class="featureCnt">
+                            <a href="#" class="productNames">Green Chilli</a>
+                            <p>$14.99</p>
+                            <div class="reviews">
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                                <iconify-icon icon="material-symbols:star"></iconify-icon>
+                            </div>
+                            <a href="#" class="featureCardBtn">
+                                <iconify-icon icon="iconamoon:shopping-bag-light" width="24" height="24"></iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2">
+                    <div class="featureProCard">
+                        <div class="featureImg">
+                            <a href="#"><img src="./assets/img/featureProduct5.png" class="img-fluid" alt=""></a>
+                            <ul class="quicklinks">
+                                <li><a href="#"><iconify-icon icon="solar:heart-linear" width="20" height="20"></iconify-icon></a></li>
+                                <li><a href="#"><iconify-icon icon="solar:eye-linear" width="20" height="20"></iconify-icon></a></li>
+                            </ul>
+                        </div>
+                        <div class="featureCnt">
+                            <a href="#" class="productNames">Corn</a>
                             <p>$14.99</p>
                             <div class="reviews">
                                 <iconify-icon icon="material-symbols:star"></iconify-icon>
@@ -386,107 +490,7 @@
                             </ul>
                         </div>
                         <div class="featureCnt">
-                            <a href="#">Green Apple</a>
-                            <p>$14.99</p>
-                            <div class="reviews">
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                            </div>
-                            <a href="#" class="featureCardBtn">
-                                <iconify-icon icon="iconamoon:shopping-bag-light" width="24" height="24"></iconify-icon>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="px-2">
-                    <div class="featureProCard">
-                        <div class="featureImg">
-                            <a href="#"><img src="./assets/img/featureProduct1.png" class="img-fluid" alt=""></a>
-                            <ul class="quicklinks">
-                                <li><a href="#"><iconify-icon icon="solar:heart-linear" width="20" height="20"></iconify-icon></a></li>
-                                <li><a href="#"><iconify-icon icon="solar:eye-linear" width="20" height="20"></iconify-icon></a></li>
-                            </ul>
-                        </div>
-                        <div class="featureCnt">
-                            <a href="#">Green Apple</a>
-                            <p>$14.99</p>
-                            <div class="reviews">
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                            </div>
-                            <a href="#" class="featureCardBtn">
-                                <iconify-icon icon="iconamoon:shopping-bag-light" width="24" height="24"></iconify-icon>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="px-2">
-                    <div class="featureProCard">
-                        <div class="featureImg">
-                            <a href="#"><img src="./assets/img/featureProduct1.png" class="img-fluid" alt=""></a>
-                            <ul class="quicklinks">
-                                <li><a href="#"><iconify-icon icon="solar:heart-linear" width="20" height="20"></iconify-icon></a></li>
-                                <li><a href="#"><iconify-icon icon="solar:eye-linear" width="20" height="20"></iconify-icon></a></li>
-                            </ul>
-                        </div>
-                        <div class="featureCnt">
-                            <a href="#">Green Apple</a>
-                            <p>$14.99</p>
-                            <div class="reviews">
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                            </div>
-                            <a href="#" class="featureCardBtn">
-                                <iconify-icon icon="iconamoon:shopping-bag-light" width="24" height="24"></iconify-icon>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="px-2">
-                    <div class="featureProCard">
-                        <div class="featureImg">
-                            <a href="#"><img src="./assets/img/featureProduct1.png" class="img-fluid" alt=""></a>
-                            <ul class="quicklinks">
-                                <li><a href="#"><iconify-icon icon="solar:heart-linear" width="20" height="20"></iconify-icon></a></li>
-                                <li><a href="#"><iconify-icon icon="solar:eye-linear" width="20" height="20"></iconify-icon></a></li>
-                            </ul>
-                        </div>
-                        <div class="featureCnt">
-                            <a href="#">Green Apple</a>
-                            <p>$14.99</p>
-                            <div class="reviews">
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                                <iconify-icon icon="material-symbols:star"></iconify-icon>
-                            </div>
-                            <a href="#" class="featureCardBtn">
-                                <iconify-icon icon="iconamoon:shopping-bag-light" width="24" height="24"></iconify-icon>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="px-2">
-                    <div class="featureProCard">
-                        <div class="featureImg">
-                            <a href="#"><img src="./assets/img/featureProduct1.png" class="img-fluid" alt=""></a>
-                            <ul class="quicklinks">
-                                <li><a href="#"><iconify-icon icon="solar:heart-linear" width="20" height="20"></iconify-icon></a></li>
-                                <li><a href="#"><iconify-icon icon="solar:eye-linear" width="20" height="20"></iconify-icon></a></li>
-                            </ul>
-                        </div>
-                        <div class="featureCnt">
-                            <a href="#">Green Apple</a>
+                            <a href="#" class="productNames">Green Apple</a>
                             <p>$14.99</p>
                             <div class="reviews">
                                 <iconify-icon icon="material-symbols:star"></iconify-icon>
@@ -503,7 +507,7 @@
                 </div>
             </div>
         </div>
-     </section> -->
+     </section>
     <!-- feature section ends here -->
 
 
