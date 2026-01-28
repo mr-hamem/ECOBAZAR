@@ -88,6 +88,20 @@
     position: relative;
     padding: 0 0 0 15px;
 }
+.featureProductSecondContainer .second_cnt_wrapper .quickLinks {
+    position: absolute;
+    right: 30%;
+    top: 235px;
+}
+.featureProductSecondContainer .second_cnt_wrapper .cnt {
+    text-align: center;
+}
+.second_cnt_wrapper .reviews {
+    justify-content: center;
+}
+.second_cnt_wrapper a.productNames {
+    font-size: 17px;
+}
 }
 /* extra extra small device responsive css ends here */
 /* iPhone6 to iPhone 8 responsive css starts here*/
