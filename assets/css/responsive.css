@@ -271,11 +271,25 @@
     position: relative;
     padding: 0 0 0 54px;
 }
+#feature .sale_banner {
+    height: 200px;
+}
 .featureProductSecondContainer h5 {
     text-align: center;
 }
+#top_category {
+    padding: 0px 0 0px 0;
+}
+#top_category .leftArrow, .rightArrow {
+    top: 69%;
+}
 #top_category .top_cat_slider .top_cat_slider_cnt {
     margin-right: 0px;
+}
+#cot a {
+    font-size: 14px;
+    text-align: center;
+    padding: 14px 20px;
 }
 }
 /* iPhone11 to iPhone14 pro responsive css ends here */
