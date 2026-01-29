@@ -80,6 +80,9 @@
 #otherService .freeShip .freeShipCnt p {
     font-size: 10px;
 }
+.featureSlider{
+    margin-bottom: 20px;
+}
 #feature .heading {
     margin-bottom: 15px;
     margin-top: 15px;
@@ -87,6 +90,10 @@
 #feature .featureProCard .featureImg {
     position: relative;
     padding: 0 0 0 15px;
+}
+.featureProductSecondContainer h5{
+    text-align: center;
+    margin-top: 10px;
 }
 .featureProductSecondContainer .second_cnt_wrapper .quickLinks {
     position: absolute;
@@ -101,6 +108,28 @@
 }
 .second_cnt_wrapper a.productNames {
     font-size: 17px;
+}
+.featureProductSecondContainer .second_cnt_wrapper .quickLinks {
+    position: absolute;
+    right: 10%;
+    top: 28px;
+}
+#feature .sale_banner {
+    height: 180px;
+}
+.featureProductSecondContainer .sale_banner a {
+    font-size: 14px;
+    padding: 14px 20px;
+    width: 110px;
+}
+#top_category {
+    padding: 0px 0 0px 0;
+}
+#top_category .leftArrow, .rightArrow {
+    position: absolute;
+    top: 67%;
+}
+#cot p {
 }
 }
 /* extra extra small device responsive css ends here */
@@ -167,6 +196,22 @@
     position: relative;
     padding: 0 0 0 38px;
 }
+#feature .sale_banner {
+    height: 180px;
+}
+#top_category {
+    padding: 0px 0 0px 0;
+}
+#top_category .leftArrow, .rightArrow {
+    top: 67%;
+}
+.featureProductSecondContainer h5 {
+    text-align: center;
+}
+#top_category .top_cat_slider .top_cat_slider_cnt {
+    text-align: center;
+    margin-right: 0;
+}
 }
 /* iPhone6 to iPhone8 responsive css ends here */
 /* iPhone11 to iPhone14 pro responsive css starts here */
@@ -225,6 +270,12 @@
 #feature .featureProCard .featureImg {
     position: relative;
     padding: 0 0 0 54px;
+}
+.featureProductSecondContainer h5 {
+    text-align: center;
+}
+#top_category .top_cat_slider .top_cat_slider_cnt {
+    margin-right: 0px;
 }
 }
 /* iPhone11 to iPhone14 pro responsive css ends here */
