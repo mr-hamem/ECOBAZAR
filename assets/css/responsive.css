@@ -267,6 +267,9 @@
     margin-bottom: 15px;
     margin-top: 15px;
 }
+.featureSlider {
+    margin-bottom: 20px;
+}
 #feature .featureProCard .featureImg {
     position: relative;
     padding: 0 0 0 54px;
