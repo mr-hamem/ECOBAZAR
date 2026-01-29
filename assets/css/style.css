@@ -623,16 +623,16 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
 .featureProductSecondContainer .second_cnt_wrapper{
     position: relative;
 }
-.featureProductSecondContainer .second_cnt_wrapper .quickLinks{
+.featureProductSecondContainer .second_cnt_wrapper .Links{
     position: absolute;
     right: 27px;
     top: 27px;
 }
-.featureProductSecondContainer .second_cnt_wrapper .quickLinks ul{
+.featureProductSecondContainer .second_cnt_wrapper .Links ul{
     display: flex;
     gap: 8px;
 }
-.featureProductSecondContainer .second_cnt_wrapper .quickLinks ul li a{
+.featureProductSecondContainer .second_cnt_wrapper .Links ul li a{
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -643,12 +643,13 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     background: rgb(161 161 161 / 30%);
     color: var(--gray-scale-gray-â€“-900);
     transition: .3s;
+    font-size: 24px;
 }
-.featureProductSecondContainer .second_cnt_wrapper .quickLinks ul li:hover a{
+.featureProductSecondContainer .second_cnt_wrapper .Links ul li:hover a{
     color: var(--gray-scale-white);
     background: var(--branding-success);
 }
-.featureProductSecondContainer .second_cnt_wrapper .quickLinks ul li{
+.featureProductSecondContainer .second_cnt_wrapper .Links ul li{
     transition: .3s;
     opacity: 0;
     visibility: hidden;
@@ -662,7 +663,7 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     opacity: 0;
     visibility: hidden;
 }
-.featureProductSecondContainer .second_cnt_wrapper:hover .quickLinks ul li{
+.featureProductSecondContainer .second_cnt_wrapper:hover .Links ul li{
     opacity: 1;
     visibility: visible;
 }
@@ -865,6 +866,7 @@ h1,h2,h3,h4,h5,h6,address,ul,ol,span,p{
     color: white;
     display: block;
     text-align: center;
+    margin-right: 15px;
 }
 #cot .cot_sale_timer span.span_1{
     color: white;

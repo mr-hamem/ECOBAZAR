@@ -95,7 +95,7 @@
     text-align: center;
     margin-top: 10px;
 }
-.featureProductSecondContainer .second_cnt_wrapper .quickLinks {
+.featureProductSecondContainer .second_cnt_wrapper .Links {
     position: absolute;
     right: 30%;
     top: 235px;
@@ -109,7 +109,7 @@
 .second_cnt_wrapper a.productNames {
     font-size: 17px;
 }
-.featureProductSecondContainer .second_cnt_wrapper .quickLinks {
+.featureProductSecondContainer .second_cnt_wrapper .Links {
     position: absolute;
     right: 10%;
     top: 28px;
@@ -360,6 +360,29 @@
     position: relative;
     padding: 0 0 0 85px;
 }
+.featureSlider {
+    margin-bottom: 20px;
+}
+.featureProductSecondContainer h5 {
+    text-align: center;
+}
+#feature .sale_banner {
+    height: 200px;
+}
+.featureProductSecondContainer .sale_banner a {
+    text-align: center;
+    padding: 14px 0px;
+}
+#top_category {
+    padding: 0px 0 0px 0;
+}
+#top_category .leftArrow, .rightArrow {
+    top: 69%;
+}
+#cot a {
+    text-align: center;
+    padding: 14px 0px;
+}
 }
 /* iPhone 11pro-max to 17 promax-devices responsive ends here */
 /* others extra small device responsive css starts here*/
@@ -422,6 +445,29 @@
     position: relative;
     padding: 0px 0 0 150px;
 }
+.featureSlider {
+    margin-bottom: 20px;
+}
+.featureProductSecondContainer h5 {
+    text-align: center;
+}
+#feature .sale_banner {
+    height: 200px;
+}
+.featureProductSecondContainer .sale_banner a {
+    text-align: center;
+    padding: 14px 0px;
+}
+#top_category {
+    padding: 0px 0 0px 0;
+}
+#top_category .leftArrow, .rightArrow {
+    top: 69%;
+}
+#cot a {
+    text-align: center;
+    padding: 14px 0px;
+}
 }
 /* others extra small device responsive css ends here*/
 /* small device responsive css starts here*/
@@ -472,7 +518,37 @@
 }
 #feature .featureProCard .featureImg {
     position: relative;
-    padding: 0 0 0 140px;
+    padding: 0 0 0 12px;
+}
+.featureSlider {
+    margin-bottom: 20px;
+}
+.featureProductSecondContainer h5 {
+    text-align: center;
+}
+#feature .sale_banner {
+    height: 200px;
+}
+.featureProductSecondContainer .sale_banner a {
+    text-align: center;
+    padding: 14px 0px;
+}
+#top_category {
+    padding: 0px 0 0px 0;
+}
+#top_category .leftArrow, .rightArrow {
+    top: 69%;
+}
+#cot a {
+    text-align: center;
+    padding: 14px 0px;
+}
+#top_category .top_cat_slider .top_cat_slider_cnt {
+    margin-right: 20px;
+    padding: 20px 10px;
+}
+#cot .cot_sale_timer span{
+    margin-right: 15px;
 }
 }
 /* small device responsive css ends here*/
@@ -530,6 +606,42 @@
 #feature .featureProCard .featureImg {
     position: relative;
     padding: 0 0 0 35px;
+}
+.second_cnt_wrapper a.productNames {
+    font-size: 13px;
+}
+.second_cnt_wrapper p {
+    font-weight: 500;
+    font-size: 14px;
+}
+.second_cnt_wrapper .reviews {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.featureSlider {
+    margin-bottom: 20px;
+}
+.featureProductSecondContainer h5 {
+    text-align: center;
+}
+.featureProductSecondContainer .second_cnt_wrapper .Links {
+    right: 7px;
+    top: 15px;
+}
+.featureProductSecondContainer .second_cnt_wrapper .Links ul li a {
+    width: 30px;
+    height: 30px;
+    transition: .3s;
+    font-size: 20px;
+}
+#feature .sale_banner {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cot .cot_sale_timer span{
+    margin-right: 15px;
 }
 }
 /* medium size devices responsive css ends here */
