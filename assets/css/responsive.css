@@ -280,6 +280,10 @@
 .featureProductSecondContainer h5 {
     text-align: center;
 }
+.featureProductSecondContainer .sale_banner a {
+    text-align: center;
+    padding: 14px 0px;
+}
 #top_category {
     padding: 0px 0 0px 0;
 }
